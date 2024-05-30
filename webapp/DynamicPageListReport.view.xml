@@ -1,0 +1,225 @@
+<mvc:View
+    controllerName="sap.ui.comp.sample.filterbar.DynamicPageListReport.DynamicPageListReport"
+    height="100%"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.f"
+    xmlns:fb="sap.ui.comp.filterbar"
+    xmlns:svm="sap.ui.comp.smartvariants">
+    <f:DynamicPage headerExpanded="{/headerExpanded}">
+        <f:title>
+            <f:DynamicPageTitle>
+                <f:heading>
+                    <svm:SmartVariantManagement id="svm" showExecuteOnSelection="true" />
+                </f:heading>
+                <f:expandedContent>
+                    <Label id="expandedLabel" text="No filters active" />
+                </f:expandedContent>
+                <f:snappedContent>
+                    <Label id="snappedLabel" text="No filters active" />
+                </f:snappedContent>
+                
+                <f:actions>
+                    <Button id="openAddDistributorForm" text="Add Distributor" type="Emphasized" press=".openAddDistributorForm" class="faintBlueButton" />
+                </f:actions>
+                <f:actions>
+                    <Button id="deleteBtn" text="Delete Distributor" type="Reject" press=".onDeleteSelectedRows" />
+                </f:actions>
+            </f:DynamicPageTitle>
+        </f:title>
+        <f:header>
+				<f:DynamicPageHeader>
+					<f:content>
+                    <!-- <Text id="distributorCountText" text="{= 'Total Distributors: ' + ${/Distributors}.length }" class="bigText"/> -->
+						<fb:FilterBar id="filterbar" persistencyKey="myPersKey" useToolbar="false" search=".onSearch" filterChange=".onFilterChange" afterVariantLoad=".onAfterVariantLoad">
+							<fb:filterGroupItems>
+                            <fb:FilterGroupItem name="Distributor" label="Distributor" groupName="Group1" visibleInFilterBar="true">
+									<fb:control>
+										<MultiComboBox
+											name="Distributor"
+											selectionChange=".onSelectionChange"
+											items="{
+												path: '/AllDistributors',
+												sorter: {
+													path: 'Region',
+													descending: false,
+													group: true
+												},
+												groupHeaderFactory: '.getGroupHeader',
+												templateShareable: true
+											}"
+										>
+											<core:Item key="{Distributor}" text="{Distributor}"/>
+										</MultiComboBox>
+									</fb:control>
+								</fb:FilterGroupItem>
+								
+								<fb:FilterGroupItem name="KAM" label="KAM" groupName="Group1" visibleInFilterBar="true">
+									<fb:control>
+										<MultiComboBox
+											name="KAM"
+											selectionChange=".onSelectionChange"
+											items="{
+												path: '/KAM',
+												templateShareable: true
+											}"
+										>
+											<core:Item key="{key}" text="{name}"/>
+										</MultiComboBox>
+									</fb:control>
+								</fb:FilterGroupItem>
+                                <fb:FilterGroupItem name="RSM" label="RSM" groupName="Group1" visibleInFilterBar="true">
+									<fb:control>
+										<MultiComboBox
+											name="RSM"
+											selectionChange=".onSelectionChange"
+											items="{
+												path: '/RSM',
+												templateShareable: true
+											}"
+										>
+											<core:Item key="{key}" text="{name}"/>
+										</MultiComboBox>
+									</fb:control>
+								</fb:FilterGroupItem>
+							</fb:filterGroupItems>
+						</fb:FilterBar>
+					</f:content>
+				</f:DynamicPageHeader>
+			</f:header>
+        <f:content>
+<!-- <Table id="table" inset="false" items="{path: '/AllDistributors'}" mode="MultiSelect">
+    <columns>
+        <Column minScreenWidth="Tablet" demandPopin="true">
+            <Text text="Distributor" />
+        </Column>
+        <Column minScreenWidth="Tablet" demandPopin="true">
+            <Text text="Region" />
+        </Column>
+        <Column minScreenWidth="Tablet" demandPopin="true">
+            <Text text="KAM" />
+        </Column>
+        <Column minScreenWidth="Tablet" demandPopin="true">
+            <Text text="RSM" />
+        </Column>
+    </columns>
+    <items>
+        <ColumnListItem vAlign="Middle" type="Inactive">
+            <cells>
+            <Text text="{Distributor}" />
+                <Text text="{Region}" />
+                <Text text="{KAM}" />
+                <Text text="{RSM}" />
+            </cells>
+        </ColumnListItem>
+    </items>
+</Table> -->
+<IconTabBar
+		id="idIconTabBar"
+		select=".onFilterSelect"
+		class="sapUiResponsiveContentPadding">
+		
+		<items>
+			<IconTabFilter
+				showAll="true"
+				count="{/distributorCount}"
+				text="Distributors"
+				key="All" />
+			<IconTabSeparator />
+			<IconTabFilter
+				icon="sap-icon://open-command-field"
+				iconColor="Positive"
+				count="{/eastDistributorCount}"
+				text="East"
+				key="East" />
+			<IconTabFilter
+				icon="sap-icon://close-command-field"
+				iconColor="Critical"
+				count="{/westDistributorCount}"
+				text="West"
+				key="West" />
+			<IconTabFilter
+				icon="sap-icon://drill-down"
+				iconColor="Positive"
+				count="{/southDistributorCount}"
+				text="South"
+				key="South" />
+			<IconTabFilter
+				icon="sap-icon://drill-up"
+				iconColor="Critical"
+				count="{/northDistributorCount}"
+				text="North"
+				key="North" />
+
+		</items>
+
+		<content>
+			<Table
+				id="table"
+				inset="false"
+				showSeparators="Inner"
+				items="{path: '/AllDistributors'}" 
+				mode="MultiSelect">
+				<!-- <infoToolbar>
+					<OverflowToolbar>
+						<Label text="Wide range of available products"/>
+					</OverflowToolbar>
+				</infoToolbar> -->
+				<columns>
+                    <Column minScreenWidth="Tablet" demandPopin="true" width="30em">
+                        <Text text="Distributor" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
+                        <Text text="Region" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
+                        <Text text="KAM" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
+                        <Text text="RSM" />
+                    </Column>
+				</columns>
+				<items>
+					<ColumnListItem vAlign="Middle" type="Inactive">
+                        <cells>
+                        <Text text="{Distributor}" />
+                            <Text text="{Region}" />
+                            <Text text="{KAM}" />
+                            <Text text="{RSM}" />
+                        </cells>
+                    </ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</IconTabBar>
+        </f:content>
+        
+    </f:DynamicPage>
+    <!-- Dialog for adding a distributor -->
+<Dialog id="addDistributor" title="Add Distributor" class="sapUiResponsivePadding">
+    <VBox class="sapUiSmallMargin">
+        <Label text="Distributor Name" required="true"/>
+        <Input id="distributorNameInput" class="fullWidth" placeholder="Enter Distributor Name" />
+        <Label text="Region" required="true"/>
+        <ComboBox id="regionInput" class="fullWidth" placeholder="Enter Region" items="{path: '/Regions'}">
+            <core:Item key="{key}" text="{name}" />
+        </ComboBox>
+        <Label text="KAM" required="true"/>
+        <ComboBox id="kamInput" class="fullWidth" placeholder="Enter KAM Name" items="{path: '/KAM'}">
+            <core:Item key="{key}" text="{name}" />
+        </ComboBox>
+        <Label text="RSM" required="true"/>
+        <ComboBox id="rsmInput" class="fullWidth" placeholder="Enter RSM Name" items="{path: '/RSM'}">
+            <core:Item key="{key}" text="{name}" />
+        </ComboBox>
+    </VBox>
+    <beginButton>
+        <Button text="Submit" press=".onSubmitPress" />
+    </beginButton>
+    <endButton>
+        <Button text="Cancel" press=".onCancelPress" />
+    </endButton>
+</Dialog>
+</mvc:View>

@@ -1,0 +1,15 @@
+specVersion: "3.0"
+metadata:
+  name: sap-ui-comp-sample-filterbar--dynamic-page-list-report
+type: application
+framework:
+  name: SAPUI5
+  version: "1.123.2"
+  libraries:
+    - name: themelib_sap_horizon
+    - name: sap.m
+    - name: sap.f
+    - name: sap.ui.comp
+    - name: sap.ui.core
+    - name: sap.ui.fl
+    - name: sap.ui.mdc

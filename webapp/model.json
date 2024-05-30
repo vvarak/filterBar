@@ -1,0 +1,340 @@
+{
+    "AllDistributors": [
+        {
+            "Distributor": "Ashok Hardware & Steel Mart",
+            "Region": "East",
+            "KAM": "Bankim Singha",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Bajrang Steel (Sales) Corporation",
+            "Region": "East",
+            "KAM": "Bankim Singha",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Bhartia Distributors Pvt Ltd",
+            "Region": "East",
+            "KAM": "Pravanjan Das",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "BMW Ventures.,Ltd.",
+            "Region": "East",
+            "KAM": "Vivek Singh",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Bubna Commercial Co.",
+            "Region": "East",
+            "KAM": "Indranil Adhikary",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Kausalya Agencies",
+            "Region": "East",
+            "KAM": "Pravanjan Das",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "North East Ventures",
+            "Region": "East",
+            "KAM": "Indranil Adhikary",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Pasa Resources Pvt. Ltd.",
+            "Region": "East",
+            "KAM": "Sarvesh Kumar",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Saha Steel Pvt. Ltd.",
+            "Region": "East",
+            "KAM": "Indranil Adhikary",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "SHRI RAM SALES",
+            "Region": "East",
+            "KAM": "Sarvesh Kumar",
+            "RSM": "Arup Kumar Das"
+        },
+        {
+            "Distributor": "Bihani Enterprises",
+            "Region": "North",
+            "KAM": "Saket Mathur",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Bihani International Pvt Ltd",
+            "Region": "North",
+            "KAM": "Sandeep Singh",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "EMPIRE ENTERPRISES",
+            "Region": "North",
+            "KAM": "Satvinder Singh",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Fairdeal Enterprises",
+            "Region": "North",
+            "KAM": "Tarun Jadli",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Fairdeal Steel Company",
+            "Region": "North",
+            "KAM": "Tarun Jadli",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "KLPK",
+            "Region": "North",
+            "KAM": "Saurabh Mishra",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Mangla Sons (Himachal)",
+            "Region": "North",
+            "KAM": "Vaibhav Sharma",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Mangla Sons (Haryana)",
+            "Region": "North",
+            "KAM": "Tarun Jadli",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "M/S Mangla Sons (South)",
+            "Region": "North",
+            "KAM": "Tarun Jadli",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Vikrant Iron",
+            "Region": "North",
+            "KAM": "Sudhir Kumar Yadav",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Agarwal Steel Traders (Devi Dayal Hari Kishan)",
+            "Region": "North",
+            "KAM": "Saurabh Mishra",
+            "RSM": "Amit Raykhere"
+        },
+        {
+            "Distributor": "Aashray Enterprises",
+            "Region": "South",
+            "KAM": "Alekhya M",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "Kausalya Agencies, AP",
+            "Region": "South",
+            "KAM": "Alekhya M",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "MODERN DISTRIPOLIS LTD",
+            "Region": "South",
+            "KAM": "Vinay Rajgopalan",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "PRABHU STEELS",
+            "Region": "South",
+            "KAM": "Vinay Rajgopalan",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "S.C.Shettar & Sons",
+            "Region": "South",
+            "KAM": "Asif Nidgundi",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "V.N.C steel Distributors",
+            "Region": "South",
+            "KAM": "R. Radhakrishna",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "Kummenchery Steel",
+            "Region": "South",
+            "KAM": "Vinay Rajgopalan",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "B. Odhavji & Com (Nanded)",
+            "Region": "West",
+            "KAM": "Nilesh Jadhav",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "B.Odhavji & Company",
+            "Region": "West",
+            "KAM": "Nilesh Jadhav",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "B.Odhavji & Company- Indore",
+            "Region": "West",
+            "KAM": "Dhanesh Gupta",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "BMW VYAPAR",
+            "Region": "West",
+            "KAM": "Dhanesh Gupta",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "Jaushna Steels",
+            "Region": "West",
+            "KAM": "Pranay Deo",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "Krishna Traders",
+            "Region": "West",
+            "KAM": "Nilesh Jadhav",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "MMI",
+            "Region": "West",
+            "KAM": "Aniket Patil",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "SHREE SALES",
+            "Region": "West",
+            "KAM": "Pranay Deo",
+            "RSM": "Avinash Panchakshari"
+        },
+        {
+            "Distributor": "Wrinkle Distributor Pvt Ltd",
+            "Region": "West",
+            "KAM": "Ritesh Pandya",
+            "RSM": "Avinash Panchakshari"
+        }
+      ],
+  "Regions" : [{
+      "key" : "East",
+      "name" : "East"
+  }, {
+      "key" : "West",
+      "name" : "West"
+  }, {
+      "key" : "South",
+      "name" : "South"
+  }, {
+      "key" : "North",
+      "name" : "North"
+  }],
+  "Distributors" : [
+    { "key": "Ashok Hardware & Steel Mart", "name": "Ashok Hardware & Steel Mart" },
+    { "key": "Bajrang Steel (Sales) Corporation", "name": "Bajrang Steel (Sales) Corporation" },
+    { "key": "Bhartia Distributors Pvt Ltd", "name": "Bhartia Distributors Pvt Ltd" },
+    { "key": "BMW Ventures.,Ltd.", "name": "BMW Ventures.,Ltd." },
+    { "key": "Bubna Commercial Co.", "name": "Bubna Commercial Co." },
+    { "key": "Kausalya Agencies", "name": "Kausalya Agencies" },
+    { "key": "North East Ventures", "name": "North East Ventures" },
+    { "key": "Pasa Resources Pvt. Ltd.", "name": "Pasa Resources Pvt. Ltd." },
+    { "key": "Saha Steel Pvt. Ltd.", "name": "Saha Steel Pvt. Ltd." },
+    { "key": "SHRI RAM SALES", "name": "SHRI RAM SALES" },
+    { "key": "Bihani Enterprises", "name": "Bihani Enterprises" },
+    { "key": "Bihani International Pvt Ltd", "name": "Bihani International Pvt Ltd" },
+    { "key": "EMPIRE ENTERPRISES", "name": "EMPIRE ENTERPRISES" },
+    { "key": "Fairdeal Enterprises", "name": "Fairdeal Enterprises" },
+    { "key": "Fairdeal Steel Company", "name": "Fairdeal Steel Company" },
+    { "key": "KLPK", "name": "KLPK" },
+    { "key": "Mangla Sons (Himachal)", "name": "Mangla Sons (Himachal)" },
+    { "key": "Mangla Sons (Haryana)", "name": "Mangla Sons (Haryana)" },
+    { "key": "M/S Mangla Sons (South)", "name": "M/S Mangla Sons (South)" },
+    { "key": "Vikrant Iron", "name": "Vikrant Iron" },
+    { "key": "Agarwal Steel Traders (Devi Dayal Hari Kishan)", "name": "Agarwal Steel Traders (Devi Dayal Hari Kishan)" },
+    { "key": "Aashray Enterprises", "name": "Aashray Enterprises" },
+    { "key": "Kausalya Agencies, AP", "name": "Kausalya Agencies, AP" },
+    { "key": "MODERN DISTRIPOLIS LTD", "name": "MODERN DISTRIPOLIS LTD" },
+    { "key": "PRABHU STEELS", "name": "PRABHU STEELS" },
+    { "key": "S.C.Shettar & Sons", "name": "S.C.Shettar & Sons" },
+    { "key": "V.N.C steel Distributors", "name": "V.N.C steel Distributors" },
+    { "key": "Kummenchery Steel", "name": "Kummenchery Steel" },
+    { "key": "B. Odhavji & Com (Nanded)", "name": "B. Odhavji & Com (Nanded)" },
+    { "key": "B.Odhavji & Company", "name": "B.Odhavji & Company" },
+    { "key": "B.Odhavji & Company- Indore", "name": "B.Odhavji & Company- Indore" },
+    { "key": "BMW VYAPAR", "name": "BMW VYAPAR" },
+    { "key": "Jaushna Steels", "name": "Jaushna Steels" },
+    { "key": "Krishna Traders", "name": "Krishna Traders" },
+    { "key": "MMI", "name": "MMI" },
+    { "key": "SHREE SALES", "name": "SHREE SALES" },
+    { "key": "Wrinkle Distributor Pvt Ltd", "name": "Wrinkle Distributor Pvt Ltd" }
+],
+  "KAM": [
+    { "key": "Bankim Singha", "name": "Bankim Singha" },
+    { "key": "Pravanjan Das", "name": "Pravanjan Das" },
+    { "key": "Vivek Singh", "name": "Vivek Singh" },
+    { "key": "Indranil Adhikary", "name": "Indranil Adhikary" },
+    { "key": "Sarvesh Kumar", "name": "Sarvesh Kumar" },
+    { "key": "Saket Mathur", "name": "Saket Mathur" },
+    { "key": "Sandeep Singh", "name": "Sandeep Singh" },
+    { "key": "Satvinder Singh", "name": "Satvinder Singh" },
+    { "key": "Tarun Jadli", "name": "Tarun Jadli" },
+    { "key": "Saurabh Mishra", "name": "Saurabh Mishra" },
+    { "key": "Vaibhav Sharma", "name": "Vaibhav Sharma" },
+    { "key": "Sudhir Kumar Yadav", "name": "Sudhir Kumar Yadav" },
+    { "key": "Alekhya M", "name": "Alekhya M" },
+    { "key": "Vinay Rajgopalan", "name": "Vinay Rajgopalan" },
+    { "key": "Asif Nidgundi", "name": "Asif Nidgundi" },
+    { "key": "R. Radhakrishna", "name": "R. Radhakrishna" },
+    { "key": "Nilesh Jadhav", "name": "Nilesh Jadhav" },
+    { "key": "Dhanesh Gupta", "name": "Dhanesh Gupta" },
+    { "key": "Pranay Deo", "name": "Pranay Deo" },
+    { "key": "Aniket Patil", "name": "Aniket Patil" },
+    { "key": "Ritesh Pandya", "name": "Ritesh Pandya" }
+],
+"RSM": [
+    { "key": "Arup Kumar Das", "name": "Arup Kumar Das" },
+    { "key": "Amit Raykhere", "name": "Amit Raykhere" },
+    { "key": "Avinash Panchakshari", "name": "Avinash Panchakshari" }
+  ],
+
+  "ProductCollectionStats": {
+  "Groups": {
+    "Regions": {
+        "East": 21,
+        "West": 22,
+        "South": 7,
+        "North": 14
+        }
+    },
+    "Filters": [
+        {
+            "type": "Regions",
+            "values": [
+                {
+                "text": "East",
+                "data": 21
+              },
+              {
+                "text": "West",
+                "data": 22
+              },
+              {
+                "text": "South",
+                "data": 7
+              },
+              {
+                "text": "North",
+                "data": 14
+              }
+            ]
+        }
+    ]
+}
+}

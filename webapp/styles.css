@@ -1,0 +1,17 @@
+.fullWidth {
+    width: 100%;
+}
+.faintBlueButton .sapMBtnInner {
+    background-color: #e6f0ff !important;
+    border-color: #e6f0ff !important;
+    color: #0066cc !important;
+}
+/* Add this to your CSS file */
+.bigText {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: makes the text bold */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures text does not overflow */
+    text-overflow: ellipsis; /* Adds ellipsis if text is too long */
+}
+
